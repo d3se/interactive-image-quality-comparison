@@ -3,7 +3,7 @@
 
 # Quality Comparison Image Comparison Website
 
-A web application for comparing image quality using JavaScript, HTML, CSS, and PHP.
+A web application for comparing (before & after) image quality using JavaScript, HTML, CSS, and PHP.
 
 ## Features
 - Select different episodes and frames for comparison.
