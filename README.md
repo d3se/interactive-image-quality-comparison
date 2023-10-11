@@ -68,6 +68,9 @@ project-root/
 
 - Each 'after' image should be named `epXafter.png`, following the same episode number convention (e.g., `ep1after(whatevername).png` for episode 1).
 
+## Live Website
+A live version of this website, with minimal modifications, can be found at [https://cdn.hdanime.org/qc/Kage%20no%20Jitsuryokusha%20ni%20Naritakute](https://cdn.hdanime.org/qc/Kage%20no%20Jitsuryokusha%20ni%20Naritakute).
+
 ## Contributing
 Contributions are welcome. Feel free to open issues or submit pull requests.
 
