@@ -10,6 +10,7 @@ A web application for comparing image quality using JavaScript, HTML, CSS, and P
 - Interactive slider for image comparison.
 - Loading screen with progress information.
 - Responsive design for various screen sizes.
+- Every Episode and or Image entry is dynamically loaded by the php script (`getEpisodes.php`), you only have to stick to the directory structure shown below.
 
 ## Technologies Used
 - JavaScript
@@ -37,8 +38,8 @@ The PHP script (`getEpisodes.php`) parses directories and images using the follo
 - The main project directory should contain subdirectories, each representing an episode.
 
 - Inside each episode directory, you should place pairs of 'before' and 'after' images for comparison. For example:
-  - `ep01_before.png` and `ep01_after.png`
-  - `ep02_before.png` and `ep02_after.png`
+  - `ep1before(whatevername).png` and `ep1after(whatevername).png` --name does NOT have to be in '()' brackets.
+  - `ep2before(whatevername).png` and `ep2after(whatevername).png` --name does NOT have to be in '()' brackets.
 
 - The PHP script scans the main project directory and identifies episodes and their corresponding images based on the 'before' and 'after' naming conventions.
 
@@ -49,23 +50,23 @@ The project directory structure should look like this:
 ```
 project-root/
 │
-├── episode1/
-│   ├── ep01_before.png
-│   └── ep01_after.png
+├── 1/
+│   ├── ep1before(whatevername).png
+│   └── ep1after(whatevername).png
 │
-├── episode2/
-│   ├── ep02_before.png
-│   └── ep02_after.png
+├── 2/
+│   ├── ep2before(whatevername).png
+│   └── ep2after(whatevername).png
 │
 └── getEpisodes.php
 ```
 
 ### Important Naming Conventions
-- The episode directories should be named `episode1`, `episode2`, etc., for easy identification.
+- The episode directories should be named just `1`, `2`, etc., for easy identification.
 
-- Each 'before' image should be named `epXX_before.png`, where `XX` represents the episode number (e.g., `ep01_before.png` for episode 1).
+- Each 'before' image should be named `epXbefore.png`, where `XX` represents the episode number (e.g., `ep1before(whatevername).png` for episode 1).
 
-- Each 'after' image should be named `epXX_after.png`, following the same episode number convention (e.g., `ep01_after.png` for episode 1).
+- Each 'after' image should be named `epXafter.png`, following the same episode number convention (e.g., `ep1after(whatevername).png` for episode 1).
 
 ## Contributing
 Contributions are welcome. Feel free to open issues or submit pull requests.
