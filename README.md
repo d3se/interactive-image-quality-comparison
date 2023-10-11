@@ -1,6 +1,6 @@
-Certainly, here's the complete README.md formatted for GitHub:
 
-```markdown
+
+
 # Quality Comparison Image Comparison Website
 
 A web application for comparing image quality using JavaScript, HTML, CSS, and PHP.
