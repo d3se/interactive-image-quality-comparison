@@ -22,7 +22,7 @@ A web application for comparing image quality using JavaScript, HTML, CSS, and P
 ### Installation Instructions
 1. Clone the repository to your local machine.
    ```bash
-   git clone https://github.com/your-username/quality-comparison.git
+   git clone https://github.com/d3se/interactive-image-quality-comparison.git
    ```
 2. Configure your web server to serve PHP files.
 
@@ -74,7 +74,6 @@ Contributions are welcome. Feel free to open issues or submit pull requests.
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
 ## Contact Information
-For questions or feedback, contact [Your Name](https://github.com/your-username).
+For questions or feedback, contact [d3se](https://github.com/d3se).
 ```
 
-Please replace `'your-username'` and `'Your Name'` with your actual GitHub username and name. You can use this formatted README for your GitHub repository.
