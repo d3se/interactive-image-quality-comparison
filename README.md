@@ -64,7 +64,7 @@ project-root/
 ### Important Naming Conventions
 - The episode directories should be named just `1`, `2`, etc., for easy identification.
 
-- Each 'before' image should be named `epXbefore.png`, where `XX` represents the episode number (e.g., `ep1before(whatevername).png` for episode 1).
+- Each 'before' image should be named `epXbefore.png`, where `X` represents the episode number (e.g., `ep1before(whatevername).png` for episode 1).
 
 - Each 'after' image should be named `epXafter.png`, following the same episode number convention (e.g., `ep1after(whatevername).png` for episode 1).
 
