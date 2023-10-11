@@ -75,6 +75,6 @@ Contributions are welcome. Feel free to open issues or submit pull requests.
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
 ## Contact Information
-For questions or feedback, contact [d3se](https://github.com/d3se).
-```
+For questions or feedback, contact [me](https://github.com/d3se).
+
 
